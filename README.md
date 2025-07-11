@@ -58,7 +58,7 @@ This repo isn’t just for studying — it’s also where I work through confusi
 
 - **Language:** Python 3
 - **Editor:** VS Code, Jupyter for notes/visuals
-- **Practice Sites:** Leetcode, HackerRank, Codeforces
+- **Practice Sites:** Leetcode
 - **Extras:** Diagrams, flowcharts, cheat sheets
 
 ---
