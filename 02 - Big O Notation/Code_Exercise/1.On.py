@@ -4,13 +4,5 @@ def print_items(n):
 
 print_items(10)
 
-           
-              
-                  
-                  
-
-
-
-
 
 
