@@ -1,14 +1,14 @@
-# Data Structures and Algorithms Course - Complete Structure
+# Data Structures and Algorithms Repository - Complete Structure
 
-## Course Overview
+## Overview
 
-This comprehensive course covers data structures and algorithms from basic to advanced levels, designed for students who want to master both fundamental concepts and practical implementations. The course is structured to build knowledge progressively, making it essential not to skip any section.
+This comprehensive Repository covers data structures and algorithms from basic to advanced levels, designed for students who want to master both fundamental concepts and practical implementations. The course is structured to build knowledge progressively, making it essential not to skip any section.
 
 ---
 
 ## **SECTION 1: FOUNDATIONS**
 
-### 1.1 Course Introduction and Curriculum Walkthrough
+### 1.1 Introduction and Curriculum Walkthrough
 - **Overview**: Complete walkthrough of the curriculum structure
 - **Learning Path**: Sequential progression from basic to advanced concepts
 - **Course Structure**: Two main parts - Data Structures (first half) and Algorithms (second half)
