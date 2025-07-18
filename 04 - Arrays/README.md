@@ -1281,7 +1281,12 @@ print(my_array[:4])
 3. [Insertion Operations](#insertion-operations)
 4. [Accessing Elements](#accessing-elements)
 5. [Practical Examples](#practical-examples)
-6. [Time and Space Complexity](#complexity-analysis)
+6. [Array Traversal](#array-traversal)
+7. [Searching Elements](#searching-elements)
+8. [Deletion Operations](#deletion-operations)
+9. [Time and Space Complexity Summary](#time-and-space-complexity-summary)
+10. [When to Use/Avoid Arrays](#when-to-useavoid-arrays)
+
 
 ---
 
@@ -1594,53 +1599,7 @@ new_student = np.array([[88, 90, 85, 87]])
 grades = np.append(grades, new_student, axis=0)
 ```
 
----
 
-## Time and Space Complexity Analysis {#complexity-analysis}
-
-### Summary Table
-
-| Operation | Time Complexity | Space Complexity | Explanation |
-|-----------|----------------|------------------|-------------|
-| **Creation** | O(m × n) | O(m × n) | Initialize all elements |
-| **Insertion (Row/Column)** | O(m × n) | O(m × n) | Shift existing elements |
-| **Access** | O(1) | O(1) | Direct index access |
-| **Append** | O(m × n) | O(m × n) | Create new array |
-
-### Detailed Analysis
-
-#### 1. Array Creation
-- **Time**: O(m × n) - Must initialize every cell
-- **Space**: O(m × n) - Store all elements
-- **Why**: Each element needs memory allocation
-
-#### 2. Insertion Operations
-- **Time**: O(m × n) - Shift elements to make space
-- **Space**: O(m × n) - New array with additional row/column
-- **Why**: Must move existing elements to new positions
-
-#### 3. Element Access
-- **Time**: O(1) - Direct memory access using indices
-- **Space**: O(1) - No additional memory needed
-- **Why**: Arrays provide constant-time random access
-
-### Performance Considerations
-
-1. **Frequent Insertions**: Consider using dynamic data structures
-2. **Large Arrays**: Monitor memory usage
-3. **Access Patterns**: 2D arrays excel at random access
-4. **Memory Layout**: Row-major order in most implementations
-
----
-
-## Key Takeaways
-
-1. **2D arrays are combinations of 1D arrays** arranged in rows and columns
-2. **Use NumPy** for efficient multi-dimensional array operations in Python
-3. **Insertion requires entire rows/columns** to maintain matrix structure
-4. **Access is efficient** with O(1) time complexity using two indices
-5. **Always validate indices** to prevent runtime errors
-6. **Consider complexity** when choosing between operations
 
 ### Best Practices
 
@@ -1656,12 +1615,7 @@ This comprehensive guide covers all fundamental aspects of working with two-dime
 # 2D Array Operations 
 
 ## Table of Contents
-1. [Array Traversal](#array-traversal)
-2. [Searching Elements](#searching-elements)
-3. [Deletion Operations](#deletion-operations)
-4. [Time and Space Complexity Summary](#time-and-space-complexity-summary)
-5. [When to Use/Avoid Arrays](#when-to-useavoid-arrays)
-
+1. 
 ---
 
 ## Array Traversal
@@ -2062,6 +2016,16 @@ print(f"NumPy time: {np_time:.4f}s")
 print(f"List time: {list_time:.4f}s")
 # NumPy is typically 10-100x faster for numerical operations
 ```
+
+---
+## Key Takeaways
+
+1. **2D arrays are combinations of 1D arrays** arranged in rows and columns
+2. **Use NumPy** for efficient multi-dimensional array operations in Python
+3. **Insertion requires entire rows/columns** to maintain matrix structure
+4. **Access is efficient** with O(1) time complexity using two indices
+5. **Always validate indices** to prevent runtime errors
+6. **Consider complexity** when choosing between operations
 
 ---
 
