@@ -1612,11 +1612,6 @@ grades = np.append(grades, new_student, axis=0)
 This comprehensive guide covers all fundamental aspects of working with two-dimensional arrays in Python, from basic concepts to practical implementation and complexity analysis.
 
 ---
-# 2D Array Operations 
-
-## Table of Contents
-1. 
----
 
 ## Array Traversal
 
