@@ -1,6 +1,6 @@
 # Object-Oriented Programming (OOP) Concepts
 
-This guide organizes the key concepts of Object-Oriented Programming (OOP) into a structured format, based on the provided documents. It covers the motivation for using OOP, fundamental concepts (class, object, attribute, method), and practical implementation in Python, including examples and exercises. Each section includes detailed explanations to ensure clarity, especially for beginners.
+This guide organizes the key concepts of Object-Oriented Programming (OOP) into a structured format. It covers the motivation for using OOP, fundamental concepts (class, object, attribute, method), and practical implementation in Python, including examples and exercises. 
 
 ---
 
